@@ -1,0 +1,13 @@
+Student_ID,Name,Age,Gender,Course,Marks,City
+101,Mahesh,21.0,Male,AI-DS,85.0,Nagpur
+102,Rahul,22.0,Male,AI-ML,,Pune
+103,Amit,,Male,AI-DS,72.0,Mumbai
+104,Priya,20.0,Female,Data Science,91.0,Nagpur
+105,Sneha,21.0,Female,AI-DS,67.0,
+106,Rohan,23.0,Male,AI-ML,45.0,Pune
+107,Amit,,Male,AI-DS,72.0,Mumbai
+108,Neha,20.0,Female,AI-ML,,Nashik
+109,Karan,22.0,Male,AI-DS,38.0,Nagpur
+110,Pooja,21.0,Female,Data Science,88.0,Pune
+111,Vikas,24.0,Male,AI-ML,55.0,Mumbai
+112,Anjali,20.0,Female,AI-DS,76.0,Nagpur

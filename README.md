@@ -1,117 +1,36 @@
-# Week 3 - Python & Data Wrangling
+# Week 3 - Python & Data Wrangling Project
 
-## Student Performance Data Cleaning & Analysis
+## Project Title
+**Student Performance Data Cleaning & Analysis using Python and Pandas**
 
-A beginner-friendly data analysis project created as part of **Week 3: Python & Data Wrangling**.
+## Objective
+Clean a messy student dataset using Pandas, handle missing values and duplicate records,
+filter rows, create new columns, save the cleaned CSV, and visualize the results using
+Matplotlib and Seaborn.
 
-## 📌 Project Overview
+## Week 3 Requirements Covered
+1. Python basics: data structures, functions and scripting
+2. Pandas: reading CSV, filtering and data manipulation
+3. Data cleaning: missing values and duplicate records
+4. Creating new columns
+5. Matplotlib and Seaborn visualization
 
-This project demonstrates how to clean, manipulate, analyze, and visualize a messy student dataset using **Python, Pandas, Matplotlib, and Seaborn**.
+## Files
+- `messy_students.csv` - intentionally messy input dataset
+- `student_data_wrangling.py` - complete Python project
+- `project_report.md` - project report
+- `requirements.txt` - required Python libraries
 
-The project covers important data-wrangling tasks such as handling missing values, removing duplicate records, filtering data, creating new columns, and generating visualizations.
+## How to Run
+1. Install Python.
+2. Open a terminal in this folder.
+3. Run:
+   `pip install -r requirements.txt`
+4. Run:
+   `python student_data_wrangling.py`
 
-## 🎯 Objectives
-
-* Read data from a CSV file using Pandas
-* Identify and handle missing values
-* Remove duplicate records
-* Standardize inconsistent data
-* Filter rows based on conditions
-* Create new columns
-* Perform basic data analysis
-* Create data visualizations
-* Export the cleaned dataset
-
-## 🛠️ Technologies Used
-
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* CSV
-
-## 📂 Project Files
-
-```text
-week-3-python-data-wrangling/
-│
-├── messy_students.csv
-├── cleaned_students.csv
-├── student_data_wrangling.py
-├── project_report.md
-├── viva_questions_answers.md
-├── requirements.txt
-└── README.md
-```
-
-## 🔍 Data Cleaning Operations
-
-The project performs the following operations:
-
-1. Reads the CSV dataset
-2. Checks missing values
-3. Removes duplicate rows
-4. Fills missing Age values using the median
-5. Fills missing Marks using the mean
-6. Fills missing City values using the mode
-7. Standardizes course names
-8. Creates a `Result` column
-9. Creates a `Performance` column
-10. Filters passed students and high scorers
-11. Saves the cleaned dataset
-
-## 📊 Visualizations
-
-The project generates:
-
-* Student Marks Bar Chart
-* Course-wise Average Marks Chart
-* Pass/Fail Distribution Chart
-
-## ▶️ How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/week-3-python-data-wrangling.git
-```
-
-### 2. Open the project folder
-
-```bash
-cd week-3-python-data-wrangling
-```
-
-### 3. Install required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the Python program
-
-```bash
-python student_data_wrangling.py
-```
-
-## 📚 Learning Outcomes
-
-After completing this project, you will understand:
-
-* Basic Python data structures
-* Python functions
-* Pandas DataFrames
-* CSV data handling
-* Missing-value handling
-* Data filtering
-* Data transformation
-* Data visualization
-* Basic data analysis
-
-## 👨‍💻 Author
-
-**Mahesh Kumbhar**
-
-## 📄 Course
-
-**Data Analyst Course — Week 3: Python & Data Wrangling**
+The program creates:
+- `cleaned_students.csv`
+- `student_marks.png`
+- `course_average_marks.png`
+- `result_distribution.png`
